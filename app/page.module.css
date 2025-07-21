@@ -1,0 +1,147 @@
+.Homesection{
+  background-color: rgb(253, 253, 250);
+  padding-top: 110px;
+}
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  background-color: rgb(253, 253, 250);
+}
+
+.herotext { flex: 1; }
+
+.herotext h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  margin-left: 120px;
+}
+
+.herotext p {
+  font-size: 16px;
+  color: rgb(88, 104, 102);
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  margin-left: 120px;
+  line-height: 1.3;
+}
+
+.herotext button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: rgb(18,161,161);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 120px;
+}
+
+.herotext button:hover {
+  background-color: rgb(15, 140, 140);
+}
+
+.heroimage {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  margin-right: 70px;
+}
+
+.whyChoose {
+  padding: 80px 20px 120px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.whyChoose h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+.whyChoose > p {
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 60px;
+}
+
+.featurecontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stepsSection {
+  padding: 80px 20px 120px 20px;
+   background-color: rgb(253, 253, 250);
+  text-align: center;
+}
+
+.stepsSection h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+.stepscontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+@media (max-width: 1001px) {
+  .featurecontainer > :nth-child(3),
+  .stepscontainer > :nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 873px) {
+  .herosection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .herotext {
+    width: 100%;
+    margin-left: -30px;
+  }
+  .heroimage {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    margin-top: 2rem;
+    margin-right: 0;
+  }
+}

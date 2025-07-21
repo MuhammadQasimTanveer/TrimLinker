@@ -1,0 +1,81 @@
+.errorpage {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.topBar {
+  background-color: white;
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+}
+
+.heading {
+  color: #4a90e2;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.errorCard {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #e1e8ed;
+}
+
+.subheading {
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.errorList {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  list-style-type: disc;
+}
+
+.errorList li {
+  color: #4a4a4a;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.backBtn {
+  padding: 0.875rem 2rem;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(74, 144, 226, 0.2);
+}
+
+.backBtn:hover {
+  background-color: #357abd;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+}
+
+.backBtn:active {
+  transform: translateY(0);
+}
