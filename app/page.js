@@ -22,7 +22,7 @@ export default function Home() {
           <div className={styles.herotext}>
             <h2> Simplify Your Links. Amplify Your Reach. </h2>
             <p> TrimLinker simplifies link management with fast, reliable URL shortening. Turn long URLs 
-              into clean, trackable short links you can customize and share easily. Whether you're sharing 
+              into clean, trackable short links you can customize and share easily. Whether you are sharing 
               content or running campaigns, TrimLinker gives you the tools to manage every link all in one 
               streamlined platform.</p>
             <button onClick={goToShorten} > Try Now </button>
@@ -43,7 +43,7 @@ export default function Home() {
               description="Get intelligent, relevant short link suggestions based on your URL's content."/>
 
             <Card icon={Zap}  title="Fast & Reliable" 
-              description="Shorten links in an instant and trust that they'll work every time, all the time."/>
+              description="Shorten links in an instant and trust that they all work every time, all the time."/>
             <Card icon={Share2} title="Easy Sharing" 
               description="With one-click copy and memorable links, sharing on any platform is effortless."/>
               
