@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Copy} from "lucide-react";
 import styles from './page.module.css';
 
-const shorten = () => {
+const Shorten = () => {
     const [url, seturl] = useState("")
     const [shortUrl, setshortUrl] = useState("")
     const [longUrl, setlongUrl] = useState("")
@@ -136,4 +136,4 @@ const shorten = () => {
     </div>
   )
 }
-export default shorten
+export default Shorten
