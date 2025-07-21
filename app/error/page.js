@@ -3,7 +3,7 @@ import React from 'react'
 import { useRouter } from 'next/navigation'
 import styles from './page.module.css';
 
-const error = () => {
+const Error = () => {
     const router = useRouter()
 
     const goToShorten = () =>{
@@ -37,4 +37,4 @@ const error = () => {
     </div>
   )
 }
-export default error
+export default Error
